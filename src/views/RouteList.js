@@ -46,8 +46,6 @@ const RouteList = React.createClass({
       })
     })
 
-    console.warn({stopCoordList})
-
     return (
       <ColoredView title='Arturito' color='#007AFF'>
         <View style={styles.container}>
@@ -96,7 +94,11 @@ const RouteList = React.createClass({
               placeholderTextColor={'#888'} />
           </View>
           <View style={styles.innerContent}>
-            <Button styles={styles.buttonStyles} onPress={onChangeRoute.bind(null, 'ROUTE', {name: 'New Yorker'})}>
+            <Button styles={styles.buttonStyles}
+              onPress={onChangeRoute.bind(null, 'ROUTE', {
+                name: 'New Yorker',
+                routeId: 1618
+              })}>
               ¡Buscar ruta!
             </Button>
           </View>
