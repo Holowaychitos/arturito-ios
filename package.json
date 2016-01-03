@@ -1,0 +1,17 @@
+{
+  "name": "atthack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "randomcolor": "^0.4.3",
+    "react-native": "^0.17.0",
+    "react-native-ibeacon": "^0.5.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
